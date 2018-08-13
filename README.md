@@ -18,7 +18,6 @@ Bruno Aurélio Rôzza de Moura Campos
  - Restrições
  - Melhorias para próximas versões
 
-
 **Requisitos do sistema**
 Para executar o jogo é necessário:
  - Java Runtime Environment (JRE) instalado na máquina, na versão 8 ou superior.
@@ -29,7 +28,6 @@ Para executar o jogo é necessário:
  - Não é necessário instalar o jogo para que ele seja executado.
  - Para executar o jogo há duas possibilidades:
 
- - 
 1º Diretamente no arquivo "game_CRAPS.jar" (que consta na pasta Executavel) considerando as restrições:
 	Se  "Java platform SE binary" estiver definido como programa padrão para abrir arquivo: Dar duplo clique em "game_CRAPS.jar";
 	Caso contrário: Clicar com o botão direito do mouse no arquivo "game_CRAPS.jar" e clicar em "Abrir com..." para procurar o JRE 8 em seu computador. 
