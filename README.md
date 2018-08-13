@@ -12,11 +12,11 @@ Desenvolvimento de um programa que permite disputar apostas no jogo de cassino c
 Bruno Aurélio Rôzza de Moura Campos
 
 **Sumário:**
- - Requisitos do sistema
- - Instalação
- - Versão atual e seus aspectos
- - Restrições
- - Melhorias para próximas versões
+1. Requisitos do sistema
+2. Instalação
+3. Versão atual e seus aspectos
+4. Restrições
+5. Melhorias para próximas versões
 
 **Requisitos do sistema**
 
@@ -33,7 +33,7 @@ Para executar o jogo é necessário:
 	Se  "Java platform SE binary" estiver definido como programa padrão para abrir arquivo: Dar duplo clique em "game_CRAPS.jar";
 	Caso contrário: Clicar com o botão direito do mouse no arquivo "game_CRAPS.jar" e clicar em "Abrir com..." para procurar o JRE 8 em seu computador. 
 
- - 2º Através da linha de comando:
+2º Através da linha de comando:
 	No diretório onde consta o arquivo "game_CRAPS.jar" executar o comando (`java -jar servidor.jar`)
 	
 -Para iniciar uma partida faca o seguinte:
