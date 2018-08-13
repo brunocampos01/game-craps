@@ -18,12 +18,14 @@ Bruno Aurélio Rôzza de Moura Campos
 4. Restrições
 5. Melhorias para próximas versões
 
-**Requisitos do sistema**
+
+**1. Requisitos do sistema**
 
 Para executar o jogo é necessário:
  - Java Runtime Environment (JRE) instalado na máquina, na versão 8 ou superior.
  - Conexão com a internet para jogar com outros usuários em rede ou executar o aplicação.
  - 2 arquivos necessariois: NetGamesFileOffline.jar + servidor.jar do NetGames.
+
 
 **2. Instalação e execução**
  - Não é necessário instalar o jogo para que ele seja executado.
@@ -42,6 +44,7 @@ Para executar o jogo é necessário:
  - Defina o nome do jogador.
  - Defina o nome do servidor
 
+
 **3. Versão atual e seus aspectos**
 - O jogo encontra-se na sua primeira versão com uma interface simples e funcional.
 - Número de jogadores suportado: 2.
@@ -52,6 +55,7 @@ Para executar o jogo é necessário:
 - Em cada jogada, o jogador realiza as apostas, podendo alterar a possibilidade de apostas se der uma jogada POINT.
 - Uma partida é composta por uma rodada, que pode encerrar se sair 7 ou 11 ou POINT.
 - O jogador sempre vencera a rodada se o valor dos dados der POINT e sempre perdera se der 7 ou 11 apos a primeira rodada.
+
 
 **4. Restrições**
 - a conexao distribuida
