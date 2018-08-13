@@ -19,6 +19,7 @@ Bruno Aurélio Rôzza de Moura Campos
  - Melhorias para próximas versões
 
 **Requisitos do sistema**
+
 Para executar o jogo é necessário:
  - Java Runtime Environment (JRE) instalado na máquina, na versão 8 ou superior.
  - Conexão com a internet para jogar com outros usuários em rede ou executar o aplicação.
