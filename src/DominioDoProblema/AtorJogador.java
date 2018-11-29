@@ -3,8 +3,7 @@ package DominioDoProblema;
 import java.awt.List;
 import Rede.AtorNetGames;
 
-public class AtorJogador 
-{
+public class AtorJogador {
 	protected Mesa mesa;
 	protected AtorNetGames rede;
 	protected DisplayMesa display;
@@ -16,8 +15,7 @@ public class AtorJogador
 	protected List apostaJogador1, apostaJogador2;
 	protected int totalDeApostasJogador1, totalDeApostasJogador2;
 
-	public AtorJogador (DisplayMesa displ, Mesa table, DisplayDados painel)
-        {
+	public AtorJogador (DisplayMesa displ, Mesa table, DisplayDados painel) {
             super();
             rede = new AtorNetGames(this);
             display = displ;
