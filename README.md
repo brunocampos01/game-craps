@@ -1,8 +1,7 @@
 ## Jogo CRAPS
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
-<img src="images/craps900.png" />
-
+<img src="imagens/Craps900.png" />
 
 **Data:** 
 04/07/2017
