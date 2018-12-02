@@ -59,7 +59,7 @@ Para executar o jogo é necessário:
 
 
 **4. Restrições**
-- a conexao distribuida
+- a conexão distribuída
 
 
 **5. Melhorias para próximas versões**
