@@ -1,8 +1,7 @@
 ## Jogo CRAPS
-![java](https://img.shields.io/badge/java-11.0-green.svg)
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
-![Layout game](imagens/craps900.png)
+<img src="images/craps900.png" />
 
 
 **Data:** 
