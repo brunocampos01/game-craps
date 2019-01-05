@@ -7,18 +7,18 @@ import javax.swing.JOptionPane;
 public class Mesa {	
 	protected Jogador jogador1;
 	protected Jogador jogador2;
-        private DisplayMesa display;
-        protected AtorJogador jogo;
+    private DisplayMesa display;
+    protected AtorJogador jogo;
 	protected boolean partidaEmAndamento;
 	protected boolean conectado;
-        boolean lancouDados = false; //esta variavel define se vou verificar dados ao enviar jogada ou ao receber jogada
+    boolean lancouDados = false; //esta variavel define se vou verificar dados ao enviar jogada ou ao receber jogada
 	protected int total = 0;
 	protected int totalApostas = 0;
-        protected int totalApostasJogador2 = 0;
+    protected int totalApostasJogador2 = 0;
 	protected int saldo = 100;
 	protected int armazenaSomaDados = 0;
 	protected int contaClick = 0;
-        protected int contaJogada = 1;
+    protected int contaJogada = 1;
 	protected int totalApostas4 = 0;
 	protected int totalApostas5 = 0;
 	protected int totalApostas6 = 0;
@@ -30,9 +30,9 @@ public class Mesa {
 	protected int totalApostasPass = 0;
 	protected int totalApostasDontPass = 0;
 	protected int totalApostasField = 0;
-        protected List apostasJogador1;
-        protected List apostasJogador2;
-        protected int totalApostasJogador1;
+    protected List apostasJogador1;
+    protected List apostasJogador2;
+    protected int totalApostasJogador1;
 	protected int resultadoRodada = 0; //lost, win or continue
 	protected int somaDasFacesDados = 0;
 	protected int faceDado1 = 0;
@@ -40,12 +40,12 @@ public class Mesa {
 	protected int point = 0;
 	protected int vitoriasJogador1 = 0;
 	protected int derrotasJogador1 = 0;
-        protected int vitoriasJogador2 = 0;
-        protected int derrotasJogador2 = 0;        
+    protected int vitoriasJogador2 = 0;
+    protected int derrotasJogador2 = 0;        
 
-        public Mesa (DisplayMesa displ){
-            display = displ;
-        }
+    public Mesa (DisplayMesa displ){
+        display = displ;
+    }
         
         public Lance informarJogada(int dado1, int dado2, int somaDados, int vitoriasJogador1, int vitoriasJogador2,
             int derrotasJogador1, int derrotasJogador2, int totalApostasJogador1, int totalApostasJogador2, int point
