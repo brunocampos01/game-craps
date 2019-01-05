@@ -29,14 +29,16 @@ Para executar o jogo é necessário:
 
 
 **2. Instalação e execução**
+
  - Não é necessário instalar o jogo para que ele seja executado.
+ - É possível gerar o arquivo jar, executando o comando neste repositório: `mvn clean install`
  - Para executar o jogo há duas possibilidades:
 
-1º Diretamente no arquivo "game_CRAPS.jar" (que consta na pasta Executavel) considerando as restrições:
+1. Diretamente no arquivo "game_CRAPS.jar" (que consta na pasta Executavel) considerando as restrições:
 	Se  "Java platform SE binary" estiver definido como programa padrão para abrir arquivo: Dar duplo clique em "game_CRAPS.jar";
 	Caso contrário: Clicar com o botão direito do mouse no arquivo "game_CRAPS.jar" e clicar em "Abrir com..." para procurar o JRE 8 em seu computador. 
 
-2º Através da linha de comando:
+2. Através da linha de comando:
 	No diretório onde consta o arquivo "game_CRAPS.jar" executar o comando (`java -jar servidor.jar`)
 	
 -Para iniciar uma partida faca o seguinte:
@@ -44,7 +46,6 @@ Para executar o jogo é necessário:
  - No menu no canto superior esquerdo escolha a opção Conectar.
  - Defina o nome do jogador.
  - Defina o nome do servidor
-
 
 **3. Versão atual e seus aspectos**
 - O jogo encontra-se na sua primeira versão com uma interface simples e funcional.
@@ -57,10 +58,8 @@ Para executar o jogo é necessário:
 - Uma partida é composta por uma rodada, que pode encerrar se sair 7 ou 11 ou POINT.
 - O jogador sempre vencera a rodada se o valor dos dados der POINT e sempre perdera se der 7 ou 11 apos a primeira rodada.
 
-
 **4. Restrições**
 - a conexão distribuída
-
 
 **5. Melhorias para próximas versões**
 - Melhorar a interface gráfica: Adicionar mensagens facilitando o entendimento das possíveis jogadas que o usuário pode fazer e tambem transferir a imagem dos dados para o adversario.
