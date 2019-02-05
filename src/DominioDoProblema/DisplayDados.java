@@ -20,7 +20,12 @@ public class DisplayDados extends JPanel implements ActionListener {
 	
     public DisplayDados(DisplayMesa displ, Mesa table) {
         setBackground(new Color(0, 153, 51));
-	setBorder(new MatteBorder(10, 10, 10, 10, (Color) new Color(102, 102, 0)));
+	setBorder(new MatteBorder(
+	        10,
+            10,
+            10,
+            10,
+            (Color) new Color(102, 102, 0)));
 	display = displ;
 	regras = new Regra();
 	dado1 = new TratamentoDado();
@@ -50,9 +55,7 @@ public class DisplayDados extends JPanel implements ActionListener {
             display.update(result, point, totalSomaDados, dadoA, dadoB);
             
 	}
-
     repaint();
-
     }
     
     // lancar dados ao click em lancarDadosButton

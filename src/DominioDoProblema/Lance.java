@@ -76,9 +76,21 @@ public class Lance implements Jogada {
             return resultadoRodada;
 	}
 
-       	public void assumir(int valdado1, int valdado2, int somaDeDados, int vitoriasJogador1, int vitoriasJogador2,
-            int derrotasJogador1, int derrotasJogador2,int totalApostasJogador1, int totalApostasJogador2, int point
-            ,List apostasJogador1, List apostasJogador2,int contaJogada, int resultadoRodada) {
+       	public void assumir(
+       	        int valdado1,
+                int valdado2,
+                int somaDeDados,
+                int vitoriasJogador1,
+                int vitoriasJogador2,
+                int derrotasJogador1,
+                int derrotasJogador2,
+                int totalApostasJogador1,
+                int totalApostasJogador2,
+                int point,
+                List apostasJogador1,
+                List apostasJogador2,
+                int contaJogada,
+                int resultadoRodada) {
             dado1 = valdado1;
             dado2 = valdado2;
             somaDados = somaDeDados;
