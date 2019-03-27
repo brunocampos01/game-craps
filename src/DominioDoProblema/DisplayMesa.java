@@ -33,6 +33,8 @@ public class DisplayMesa extends JFrame {
 	protected JPanel jContentPane = null;
     protected Font displayFont = new Font("Monospaced", Font.BOLD, 16);
 
+    private static final String IMAGES = loadResourceFile();
+
 	protected JLabel imagemMesaLabel,
 			dado1Label,
 			dado2Label,
@@ -110,6 +112,18 @@ public class DisplayMesa extends JFrame {
             jogo = new AtorJogador(this, mesa, displayDados);
             regra = new Regra();
 	}
+
+    private static String loadResourceFile() {
+        try  {
+            InputStream is = MysqlHelper.class.getClassLoader().getResourceAsStream(SCHEMA_RESOURCE);
+            StringWriter writer = new StringWriter();
+            IOUtils.copy(is, writer, StandardCharsets.UTF_8);
+            return writer.toString();
+        } catch (IOException e) {
+            logger.fatal("could not load resource file", e);
+        }
+        return null;
+    }
 
 	private JPanel getJContentPane() {
 		if (jContentPane == null) {
