@@ -6,13 +6,13 @@
 **Data:** 
 04/07/2017
 
-## Descrição do projeto: 
+## Descrição do projeto
 Desenvolvimento de um programa que permite disputar apostas no jogo de cassino chamado CRAPS entre dois usuários.UFSC - INE5608
 
-## Autor:
+## Autor
 Bruno Aurélio Rôzza de Moura Campos
 
-## Sumário:
+## Sumário
 1. Requisitos do sistema
 2. Instalação
 3. Versão atual e seus aspectos
