@@ -3,7 +3,7 @@
 
 <img src="src/main/resources/imagens/craps_display_900.png"/>
 
-**Data:** 
+**Data:**
 04/07/2017
 
 ## Descrição do projeto
@@ -35,12 +35,13 @@ Para executar o jogo é necessário:
  - Para executar o jogo há duas possibilidades:
 
 1. Diretamente no arquivo "game_CRAPS.jar" (que consta na pasta Executavel) considerando as restrições:
-	Se  "Java platform SE binary" estiver definido como programa padrão para abrir arquivo: Dar duplo clique em "game_CRAPS.jar";
-	Caso contrário: Clicar com o botão direito do mouse no arquivo "game_CRAPS.jar" e clicar em "Abrir com..." para procurar o JRE 8 em seu computador. 
+	Se  "Java platform SE binary" estiver definido como programa padrão para abrir arquivo: Dar duplo clique em "game-craps.jar";
+	Caso contrário: Clicar com o botão direito do mouse no arquivo "game_CRAPS.jar" e clicar em "Abrir com..." para procurar o JRE 8 em seu computador.<br/>
+OBS: veja como esta o PATH que indica o arquivo ngnrtFramework.jar no pom.xml
 
 2. Através da linha de comando:
 	No diretório onde consta o arquivo "game_CRAPS.jar" executar o comando (`java -jar servidor.jar`)
-	
+
 -Para iniciar uma partida faca o seguinte:
 
  - No menu no canto superior esquerdo escolha a opção Conectar.
