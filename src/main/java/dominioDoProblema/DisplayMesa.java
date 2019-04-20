@@ -1,4 +1,4 @@
-package DominioDoProblema;
+package dominioDoProblema;
 
 import javax.swing.JPanel;
 import javax.swing.JTextField;
@@ -25,7 +25,7 @@ import java.awt.Toolkit;
 public class DisplayMesa extends JFrame {
     //global
     private static final long serialVersionUID = 1L;
-    protected AtorJogador jogo;
+    protected dominioDoProblema.AtorJogador jogo;
     protected Jogador jogador;
     protected Mesa mesa = new Mesa(this);
     protected DisplayDados displayDados = new DisplayDados(this, mesa);
@@ -101,7 +101,7 @@ public class DisplayMesa extends JFrame {
         initialize();
     }
 
-    public DisplayMesa(DisplayDados displayDados) {
+    public DisplayMesa(dominioDoProblema.DisplayDados displayDados) {
         super();
         initialize();
     }
@@ -123,7 +123,11 @@ public class DisplayMesa extends JFrame {
             //JLabel
             imagemMesaLabel = new JLabel("");
             imagemMesaLabel.setBounds(0, 0, 728, 454);
-            imagemMesaLabel.setBorder(new MatteBorder(10, 10, 10, 10, (Color) new Color(102, 102, 51)));
+            imagemMesaLabel.setBorder(new MatteBorder(10,
+                10,
+                10,
+                10,
+                (Color) new Color(102, 102, 51)));
             imagemMesaLabel.setIcon(new ImageIcon(PATH_IMAGENS + "craps_display_708x477.png"));
 
             statusLabel = new JLabel("Status do jogo");
@@ -662,8 +666,8 @@ public class DisplayMesa extends JFrame {
         if (jMenuItem1 == null) {
             jMenuItem1 = new JMenuItem();
             jMenuItem1.setText("iniciar nova Rodada");
-            jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
-                public void actionPerformed(java.awt.event.ActionEvent e) {
+            jMenuItem1.addActionListener(new ActionListener() {
+                public void actionPerformed(ActionEvent e) {
                     iniciarPartida();
                 }
             });
@@ -675,8 +679,8 @@ public class DisplayMesa extends JFrame {
         if (jMenuItem2 == null) {
             jMenuItem2 = new JMenuItem();
             jMenuItem2.setText("conectar");
-            jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
-                public void actionPerformed(java.awt.event.ActionEvent e) {
+            jMenuItem2.addActionListener(new ActionListener() {
+                public void actionPerformed(ActionEvent e) {
                     conectar();
                 }
             });
@@ -688,8 +692,8 @@ public class DisplayMesa extends JFrame {
         if (jMenuItem3 == null) {
             jMenuItem3 = new JMenuItem();
             jMenuItem3.setText("desconectar");
-            jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
-                public void actionPerformed(java.awt.event.ActionEvent e) {
+            jMenuItem3.addActionListener(new ActionListener() {
+                public void actionPerformed(ActionEvent e) {
                     desconectar();
                 }
             });
@@ -826,7 +830,6 @@ public class DisplayMesa extends JFrame {
                 statusLabel.setText("Rodada encerrada.");
                 break;
         }
-        ;
     }
 
     public void atualizacaoStatusVitoria(int codigo) {
@@ -840,6 +843,6 @@ public class DisplayMesa extends JFrame {
             case 6:
                 statusVitoriaLabel.setText("Aguarde seu adversário jogar.");
                 break;
-        };
+        }
     }
 }

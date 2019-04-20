@@ -1,12 +1,12 @@
-package DominioDoProblema;
+package dominioDoProblema;
 
 import java.awt.List;
 import javax.swing.JOptionPane;
 
 public class Mesa {
     //global
-    protected Jogador jogador1;
-    protected Jogador jogador2;
+    protected dominioDoProblema.Jogador jogador1;
+    protected dominioDoProblema.Jogador jogador2;
     private DisplayMesa display;
     protected AtorJogador jogo;
     protected boolean partidaEmAndamento;
@@ -44,24 +44,25 @@ public class Mesa {
     protected int derrotasJogador2 = 0;
 
     public Mesa(DisplayMesa displ) {
+        super();
         display = displ;
     }
 
-    public Lance informarJogada(int dado1,
-                                int dado2,
-                                int somaDados,
-                                int vitoriasJogador1,
-                                int vitoriasJogador2,
-                                int derrotasJogador1,
-                                int derrotasJogador2,
-                                int totalApostasJogador1,
-                                int totalApostasJogador2,
-                                int point,
-                                List informarApostasJogador1,
-                                List informarApostasJogador2,
-                                int contaJogada,
-                                int resultadoRodada) {
-        Lance lance = new Lance();
+    public dominioDoProblema.Lance informarJogada(int dado1,
+                                                  int dado2,
+                                                  int somaDados,
+                                                  int vitoriasJogador1,
+                                                  int vitoriasJogador2,
+                                                  int derrotasJogador1,
+                                                  int derrotasJogador2,
+                                                  int totalApostasJogador1,
+                                                  int totalApostasJogador2,
+                                                  int point,
+                                                  List informarApostasJogador1,
+                                                  List informarApostasJogador2,
+                                                  int contaJogada,
+                                                  int resultadoRodada) {
+        dominioDoProblema.Lance lance = new Lance();
         lance.assumir(dado1,
             dado2,
             somaDados,
@@ -91,7 +92,7 @@ public class Mesa {
 
     public void criarJogador(String idJogador) {
         if (jogador1 == null) {
-            jogador1 = new Jogador(display);
+            jogador1 = new dominioDoProblema.Jogador(display);
             jogador1.iniciar();
             jogador1.assumirNome(idJogador);
             jogador1.daVez = true;
@@ -289,69 +290,56 @@ public class Mesa {
 
     //logica das apostas
     public void verificarApostasEm4() {
-        if (totalApostas4 > 0) {        //se foi apostado em 4 e a somaDasFacesDados == 4 PAGUE
-            if (toStringSomaDasFacesDados().equals(4)) {
+        if (totalApostas4 > 0 && toStringSomaDasFacesDados().equals(4)) {        //se foi apostado em 4 e a somaDasFacesDados == 4 PAGUE
                 saldo = saldo + totalApostas4 * 2;
                 display.saldotextField.setText(toStringSaldo() + "ficha(s)");
                 JOptionPane.showMessageDialog(display, "JOGADA\n\nGanhou:  " + totalApostas4 * 2 +
                     " fichas \n por ter apostado " + totalApostas4 + " ficha(s) no 4. ");
-            }
         }
     }
 
     public void verificarApostasEm5() {
-        if (totalApostas5 > 0) {
-            if (somaDasFacesDados == 5) {
+        if (totalApostas5 > 0 && somaDasFacesDados == 5) {
                 saldo = saldo + totalApostas5 * 2;
                 display.saldotextField.setText(toStringSaldo() + "ficha(s)");
                 JOptionPane.showMessageDialog(display, "JOGADA\nganhou:  "
                     + totalApostas5 * 2 + " fichas \n por ter apostado " + totalApostas5 + " ficha(s) no 5. ");
-            }
         }
     }
 
     public void verificarApostasEm6() {
-        if (totalApostas6 > 0) {
-            if (somaDasFacesDados == 6) {
+        if (totalApostas6 > 0 && somaDasFacesDados == 6) {
                 saldo = saldo + totalApostas6 * 2;
                 display.saldotextField.setText(toStringSaldo() + "ficha(s)");
                 JOptionPane.showMessageDialog(display, "JOGADA\nganhou:  "
                     + totalApostas6 * 2 + " fichas \n por ter apostado " + totalApostas6 + " ficha(s) no 6. ");
-            }
         }
     }
 
     public void verificarApostasEm8() {
-        if (totalApostas8 > 0) {
-            if (somaDasFacesDados == 8) {
+        if (totalApostas8 > 0 && somaDasFacesDados == 8) {
                 saldo = saldo + totalApostas8 * 2;
                 display.saldotextField.setText(toStringSaldo() + "ficha(s)");
                 JOptionPane.showMessageDialog(display, "JOGADA\nganhou: "
                     + totalApostas8 * 2 + " fichas \n por ter apostado " + totalApostas8 + " ficha(s) no 8. ");
-            }
         }
     }
 
     public void verificarApostasEm9() {
-        if (totalApostas9 > 0) {
-            if (somaDasFacesDados == 9) {
+        if (totalApostas9 > 0 && somaDasFacesDados == 9) {
                 saldo = saldo + totalApostas9 * 2;
                 display.saldotextField.setText(toStringSaldo() + "ficha(s)");
                 JOptionPane.showMessageDialog(display, "JOGADA\nganhou:  "
                     + totalApostas9 * 2 + "fichas \n por ter apostado " + totalApostas9 + " ficha(s) no 9. ");
-
-            }
         }
     }
 
     public void verificarApostasEm10() {
-        if (totalApostas10 > 0) {        //se foi apostado em 4 e a somaDasFacesDados == 4 PAGUE
-            if (somaDasFacesDados == 10) {
+        if (totalApostas10 > 0 && somaDasFacesDados == 10) {        //se foi apostado em 4 e a somaDasFacesDados == 4 PAGUE
                 saldo = saldo + totalApostas10 * 2;
                 display.saldotextField.setText(toStringSaldo() + "ficha(s)");
                 JOptionPane.showMessageDialog(display, "JOGADA\nganhou:   "
                     + totalApostas10 * 2 + " fichas \n por ter apostado " + totalApostas10 + " ficha(s) no 10. ");
-            }
         }
     }
 

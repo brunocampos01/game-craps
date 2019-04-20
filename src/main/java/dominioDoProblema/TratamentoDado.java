@@ -1,7 +1,8 @@
-package DominioDoProblema;
+package dominioDoProblema;
 
 import java.awt.Graphics;
 import java.awt.Color;
+
 import org.apache.log4j.Logger;
 
 public class TratamentoDado extends Dado {
@@ -14,6 +15,8 @@ public class TratamentoDado extends Dado {
     private final int dadoTamanho = 50;
     private int xCenter, yCenter;
     private double xSpeed, ySpeed;
+
+    private static Logger logger = Logger.getLogger(TratamentoDado.class);
 
     // sets the "table" limites
     public static void setLimites(int left, int right, int top, int bottom) {
@@ -170,6 +173,8 @@ public class TratamentoDado extends Dado {
                 g.fillOval(x3, y1, dotSize, dotSize);
                 g.fillOval(x3, y3, dotSize, dotSize);
                 break;
+            default:
+                logger.error("Error: " +numFace);
         }
     }
 }

@@ -1,4 +1,4 @@
-package DominioDoProblema;
+package dominioDoProblema;
 
 import br.ufsc.inf.leobr.cliente.Jogada;
 

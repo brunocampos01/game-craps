@@ -1,4 +1,4 @@
-package DominioDoProblema;
+package dominioDoProblema;
 
 import java.awt.Color;
 import java.awt.Graphics;
