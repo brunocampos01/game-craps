@@ -1,6 +1,6 @@
 # Jogo CRAPS
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d5ecdcedd7b744fdafcc5353b4a04cd4)](https://www.codacy.com/app/brunocampos01/game-craps?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=brunocampos01/game-craps&amp;utm_campaign=Badge_Grade)
 <img src="src/main/resources/imagens/craps_display_900.png"/>
 
 **Data:**
