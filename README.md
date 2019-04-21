@@ -1,6 +1,5 @@
 # Jogo CRAPS
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/452bbb3d75024f76a8c81a98e7bf73b4)](https://www.codacy.com/app/brunocampos01/learning-data-science?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=brunocampos01/learning-data-science&amp;utm_campaign=Badge_Grade)
 
 <img src="src/main/resources/imagens/craps_display_900.png"/>
 
