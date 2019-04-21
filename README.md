@@ -1,6 +1,8 @@
 # Jogo CRAPS
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d8ea582fd3b34e299c4c969ca3aabf1f)](https://app.codacy.com/app/brunocampos01/game-craps?utm_source=github.com&utm_medium=referral&utm_content=brunocampos01/game-craps&utm_campaign=Badge_Grade_Dashboard)
+
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/452bbb3d75024f76a8c81a98e7bf73b4)](https://www.codacy.com/app/brunocampos01/learning-data-science?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=brunocampos01/learning-data-science&amp;utm_campaign=Badge_Grade)
 
 <img src="src/main/resources/imagens/craps_display_900.png"/>
 
