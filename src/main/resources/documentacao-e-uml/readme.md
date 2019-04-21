@@ -28,11 +28,11 @@ Para executar o jogo é necessário:
 - Para executar o jogo há duas possibilidades
 	1º Diretamente no arquivo "game_CRAPS.jar" (que consta na pasta Executavel) considerando as restrições:
 	Se  "Java platform SE binary" estiver definido como programa padrão para abrir arquivo: Dar duplo clique em "game_CRAPS.jar";
-	Caso contrário: Clicar com o botão direito do mouse no arquivo "game_CRAPS.jar" e clicar em "Abrir com..." para procurar o JRE 8 em seu computador. 
+	Caso contrário: Clicar com o botão direito do mouse no arquivo "game_CRAPS.jar" e clicar em "Abrir com..." para procurar o JRE 8 em seu computador.
 
 	2º Através da linha de comando:
 	No diretório onde consta o arquivo "game_CRAPS.jar" executar o comando (java -jar servidor.jar)
-	
+
 -Para iniciar uma partida faca o seguinte:
     No menu no canto superior esquerdo escolha a opção Conectar.
     Defina o nome do jogador.

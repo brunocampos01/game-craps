@@ -1,12 +1,12 @@
-package dominioDoProblema;
+package  dominiodoproblema;
 
 import java.awt.List;
 import javax.swing.JOptionPane;
 
 public class Mesa {
     //global
-    protected dominioDoProblema.Jogador jogador1;
-    protected dominioDoProblema.Jogador jogador2;
+    protected Jogador jogador1;
+    protected Jogador jogador2;
     private DisplayMesa display;
     protected AtorJogador jogo;
     protected boolean partidaEmAndamento;
@@ -48,7 +48,7 @@ public class Mesa {
         display = displ;
     }
 
-    public dominioDoProblema.Lance informarJogada(int dado1,
+    public Lance informarJogada(int dado1,
                                                   int dado2,
                                                   int somaDados,
                                                   int vitoriasJogador1,
@@ -62,7 +62,7 @@ public class Mesa {
                                                   List informarApostasJogador2,
                                                   int contaJogada,
                                                   int resultadoRodada) {
-        dominioDoProblema.Lance lance = new Lance();
+        Lance lance = new Lance();
         lance.assumir(dado1,
             dado2,
             somaDados,
@@ -92,7 +92,7 @@ public class Mesa {
 
     public void criarJogador(String idJogador) {
         if (jogador1 == null) {
-            jogador1 = new dominioDoProblema.Jogador(display);
+            jogador1 = new Jogador(display);
             jogador1.iniciar();
             jogador1.assumirNome(idJogador);
             jogador1.daVez = true;

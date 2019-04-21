@@ -1,19 +1,18 @@
-package dominioDoProblema;
-
-import java.awt.List;
+package  dominiodoproblema;
 
 import rede.AtorNetGames;
+import java.awt.*;
 
 public class AtorJogador {
     //global
+    AtorNetGames rede;
     protected Mesa mesa;
-    protected rede.AtorNetGames rede;
     protected DisplayMesa display;
     protected DisplayDados painelD;
     protected String idUsuario;
     protected String adversario;
 
-    public AtorJogador(DisplayMesa displ, Mesa table, dominioDoProblema.DisplayDados painel) {
+    public AtorJogador(DisplayMesa displ, Mesa table, DisplayDados painel) {
         super();
         rede = new AtorNetGames(this);
         display = displ;
@@ -129,7 +128,7 @@ public class AtorJogador {
                             int contaJogada,
                             int resultadoRodada) {
 
-                            dominioDoProblema.Lance lance = mesa.informarJogada(
+                            Lance lance = mesa.informarJogada(
                                                             dado1,
                                                             dado2,
                                                             somaDados,

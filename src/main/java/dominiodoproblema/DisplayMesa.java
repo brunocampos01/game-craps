@@ -1,31 +1,17 @@
-package dominioDoProblema;
+package  dominiodoproblema;
 
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.HeadlessException;
-import java.awt.List;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import java.awt.Rectangle;
+import javax.swing.*;
+import javax.swing.border.MatteBorder;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.border.MatteBorder;
-import java.awt.Toolkit;
 
 public class DisplayMesa extends JFrame {
     //global
     private static final long serialVersionUID = 1L;
-    protected dominioDoProblema.AtorJogador jogo;
+    protected AtorJogador jogo;
     protected Jogador jogador;
     protected Mesa mesa = new Mesa(this);
     protected DisplayDados displayDados = new DisplayDados(this, mesa);
@@ -101,7 +87,7 @@ public class DisplayMesa extends JFrame {
         initialize();
     }
 
-    public DisplayMesa(dominioDoProblema.DisplayDados displayDados) {
+    public DisplayMesa(DisplayDados displayDados) {
         super();
         initialize();
     }

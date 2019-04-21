@@ -1,4 +1,4 @@
-package dominioDoProblema;
+package  dominiodoproblema;
 
 public class Dado {
     private int face;
