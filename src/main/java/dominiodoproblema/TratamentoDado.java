@@ -175,6 +175,7 @@ public class TratamentoDado extends Dado {
                 break;
             default:
                 logger.error("Error: " +numFace);
+                break;
         }
     }
 }

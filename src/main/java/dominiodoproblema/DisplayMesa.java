@@ -99,7 +99,8 @@ public class DisplayMesa extends JFrame {
         jogo = new AtorJogador(this, mesa, displayDados);
         regra = new Regra();
     }
-
+    
+    // HIGH cyclomatic complexity
     private JPanel getJContentPane() {
         if (jContentPane == null) {
             jMenuBar1 = new JMenuBar();

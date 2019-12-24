@@ -76,7 +76,7 @@ public class AtorNetGames implements OuvidorProxy {
     public String informarNomeAdversario(String idUsuario) {
         String aux1 = proxy.obterNomeAdversario(new Integer(1));
         String aux2 = proxy.obterNomeAdversario(new Integer(2));
-        ;
+
         if (aux1.equals(idUsuario)) {
             return aux2;
         } else {

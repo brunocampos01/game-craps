@@ -112,6 +112,8 @@ public class AtorJogador {
         display.atualizacaoStatusPartida(3);
     }
 
+    // Methods with numerous parameters are a challenge to maintain, especially if most of them share the same datatype. 
+    // These situations usually denote the need for new objects to wrap the numerous parameters. 
     public void enviarJogada(
                             int dado1,
                             int dado2,
