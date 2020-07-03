@@ -65,3 +65,17 @@ OBS: veja como esta o PATH que indica o arquivo ngnrtFramework.jar no pom.xml
 **5. Melhorias para próximas versões**
 - Melhorar a interface gráfica: Adicionar mensagens facilitando o entendimento das possíveis jogadas que o usuário pode fazer e tambem transferir a imagem dos dados para o adversario.
 - Melhorar as imagens das apostas, para que cada click seja inserido uma ficha a mais na aposta.
+
+---
+
+### Author
+Bruno Aurélio Rôzza de Moura Campos
+
+<a href="mailto:brunocampos01@gmail.com" target="_blank"><img class="" src="images/gmail.png" width="28"></a>
+<a href="https://github.com/brunocampos01" target="_blank"><img class="ai-subscribed-social-icon" src="images/github.png" width="30"></a>
+<a href="https://www.linkedin.com/in/brunocampos01/" target="_blank"><img class="ai-subscribed-social-icon" src="images/linkedin.png" width="30"></a>
+
+---
+
+### Copyright
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bruno A. R. M. Campos</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
