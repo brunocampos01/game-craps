@@ -1,5 +1,4 @@
 # Jogo CRAPS
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d5ecdcedd7b744fdafcc5353b4a04cd4)](https://www.codacy.com/app/brunocampos01/game-craps?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=brunocampos01/game-craps&amp;utm_campaign=Badge_Grade)
 ![License](https://img.shields.io/badge/Code%20License-MIT-green.svg)
 ![java](https://img.shields.io/badge/UFSC-APS-green.svg)
 
@@ -14,7 +13,7 @@
 Desenvolvimento de um programa que permite disputar apostas no jogo de cassino chamado CRAPS entre dois usuários.UFSC - INE5608
 
 ## Autor
-Bruno Aurélio Rôzza de Moura Campos
+Bruno Aurélio Rozza de Moura Campos
 
 ## Sumário
 1. Requisitos do sistema
